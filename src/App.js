@@ -6,7 +6,7 @@ function App() {
   let [resString, setResString] = useState("");
   function handleSubmit(e) {
     e.preventDefault();
-    if (lname == "" || lname == "") return;
+    if (lname === "" || lname === "") return;
     setResString(`Full Name: ${fname} ${lname}`);
   }
 
