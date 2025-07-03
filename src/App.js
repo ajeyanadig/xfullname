@@ -31,7 +31,9 @@ function App() {
             required
           />
         </div>
-        <button type="submit">Submit</button>
+        <button type="submit" style={{ display: "block" }}>
+          Submit
+        </button>
       </form>
       {resString}
     </div>
