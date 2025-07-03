@@ -6,7 +6,6 @@ function App() {
   let [resString, setResString] = useState("");
   function handleSubmit(e) {
     e.preventDefault();
-    console.log(e);
     setResString(`Full Name: ${fname} ${lname}`);
   }
 
@@ -17,6 +16,7 @@ function App() {
         <div>
           <label>First Name:</label>
           <input
+            type="text"
             value={fname}
             onChange={(e) => setFname(e.target.value)}
             required
@@ -25,6 +25,7 @@ function App() {
         <div>
           <label>Last Name:</label>
           <input
+            type="text"
             value={lname}
             onChange={(e) => setLname(e.target.value)}
             required
