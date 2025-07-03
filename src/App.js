@@ -35,7 +35,7 @@ function App() {
           Submit
         </button>
       </form>
-      <p>{resString}</p>
+      <p>Full Name: {resString}</p>
     </div>
   );
 }
